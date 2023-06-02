@@ -6,6 +6,7 @@
 
 This package allows you to use the GraphQL schema language to build your [GraphQL.js](https://github.com/graphql/graphql-js) schema, and also includes useful schema tools like per-type mocking.
 
+
 ## Documentation
 
 [Read the docs.](http://dev.apollodata.com/tools/graphql-tools/index.html)
