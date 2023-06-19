@@ -1,19 +1,13 @@
 # GraphQL-tools: generate and mock GraphQL.js schemas
-[![npm version](https://badge.fury.io/js/graphql-tools.svg)](https://badge.fury.io/js/graphql-tools)
-[![Build Status](https://travis-ci.org/apollographql/graphql-tools.svg?branch=master)](https://travis-ci.org/apollographql/graphql-tools)
-[![Coverage Status](https://coveralls.io/repos/github/apollographql/graphql-tools/badge.svg?branch=master)](https://coveralls.io/github/apollographql/graphql-tools?branch=master)
-[![Get on Slack](https://img.shields.io/badge/slack-join-orange.svg)](http://www.apollostack.com/#slack)
 
 This package allows you to use the GraphQL schema language to build your [GraphQL.js](https://github.com/graphql/graphql-js) schema, and also includes useful schema tools like per-type mocking.
 
 
 ## Documentation
 
-[Read the docs.](http://dev.apollodata.com/tools/graphql-tools/index.html)
+[Read the docs.](https://the-guild.dev/graphql/tools/docs/introduction)
 
 ## Example
-
-The ["Hello World" server](https://github.com/apollostack/frontpage-server) which powers our client examples is a great place to start if you're looking for a minimal codebase powered by `graphql-tools`.
 
 When using `graphql-tools`, you describe the schema as a GraphQL type language string:
 
@@ -103,8 +97,6 @@ const executableSchema = makeExecutableSchema({
   resolvers: resolverMap,
 });
 ```
-
-This example has the entire type definition in one string and all resolvers in one object, but you can combine types and resolvers from multiple files, as documented in the [modularizing the schema](http://dev.apollodata.com/tools/graphql-tools/generate-schema.html#modularizing) section of the docs.
 
 ## Contributions
 
